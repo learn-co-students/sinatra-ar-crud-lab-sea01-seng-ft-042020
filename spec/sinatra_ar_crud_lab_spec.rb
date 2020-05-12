@@ -74,7 +74,6 @@ describe "Magazine App" do
 
   describe "update action" do
 
-
     it 'responds with a 200 status code' do
       get "/articles/#{@article2.id}/edit"
       expect(last_response.status).to eq(200)
